@@ -1,0 +1,12 @@
+/* Add other styles if you have */
+.description {
+    display: none;
+  }
+  
+  .crypto-item:hover .description {
+    display: block;
+    color: #067c85; 
+    background-color: #33333345; 
+    padding: 10px; 
+  }
+  

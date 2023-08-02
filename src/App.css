@@ -1,0 +1,42 @@
+/* Add these styles to the existing CSS */
+*{
+  margin: 0;
+  padding: 0;
+}
+.crypto-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.crypto-item {
+  width: calc(27.3%); /* To have 3 items per row with a gap of 20px */
+  margin: 10px; /* Gaps between items */
+  padding: 10px; /* Add padding to create space around the item content */
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  transition: box-shadow 0.3s ease; /* Add transition for the hover effect */
+}
+
+.crypto-item img {
+  width: 80px; /* Set the width of the cryptocurrency images */
+  height: 80px; /* Set the height of the cryptocurrency images */
+  margin-bottom: 10px; /* Add a margin below the image */
+}
+
+.crypto-item h3 {
+  font-size: 1.2rem;
+  color: #46f6be;
+  margin-bottom: 5px; /* Add a margin below the cryptocurrency name */
+}
+
+.crypto-item p {
+  font-size: 1rem;
+  font-weight: 700;
+  color: #26d3e3; /* Add a light color to the description text */
+}
+
