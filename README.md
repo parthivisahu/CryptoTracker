@@ -6,7 +6,6 @@ CryptoTracker is a real-time cryptocurrency price tracker that allows you to mon
 - [Technologies Used](#technologies-used)
 - [Installation](#installation)
 - [Usage](#usage)
-- [Screenshots](#screenshots)
 - [Contributing](#contributing)
 - [License](#license)
 - [Contact](#contact)
